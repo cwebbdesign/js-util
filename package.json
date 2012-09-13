@@ -1,0 +1,28 @@
+{
+  "author": "Christopher Webb <christopherwdesign@gmail.com> (http://blog.mediumequalsmessage.com)",
+  "name": "js-util",
+  "description": "JavaScript utilities w/testing",
+  "version": "0.1.0",
+  "homepage": "http://blog.mediumequalsmessage.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cwebbdesign/jsutil.git"
+  },
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "dependencies": {
+    "express" : "2.5.x"
+  },
+  "devDependencies": {
+    "mocha" : "1.0.x",
+    "requirejs" : "1.0.x"
+  },
+  "scripts": {
+    "start": "node bin/serve"
+  },
+  "bin" : "bin/serve",
+  "bugs" : {
+    "url" : "https://github.com/cwebbdesign/jsutil/issues"
+  }
+}
